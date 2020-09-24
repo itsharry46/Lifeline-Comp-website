@@ -5,7 +5,6 @@
 
 body{
 	overflow-x: hidden;
-	background-color: #e0e0e0;
 }
 
 .navbar{
@@ -95,4 +94,35 @@ body{
 .cards h5{
 	margin-top: 10px;
 	text-align: center;
+}
+
+/* home jumbotron */
+.jumbotron{
+	margin-top: 10%;
+	background-color:  white;
+	border-radius: 10px;
+}
+
+.jumboleft img{
+	width: 100%;
+	border-radius: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/* our service */
+.why{
+	margin-top: 10%;
+	background-image: url("../images/parallax.jpg");
+  height: 50vh; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* FOOTER */
+.footer{
+	background-color: black;
+	color: white;
 }
