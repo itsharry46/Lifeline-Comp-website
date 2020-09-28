@@ -43,6 +43,8 @@ body{
 }
 
 .home-box p{
+	text-align: justify;
+	text-transform: capitalize;
 	position: relative;
 	top: 35%;
 	left: 2%;
@@ -72,18 +74,24 @@ body{
 }
 
 .heading-two h1{
-	font-size: 24px;
+	text-align: center;
+	font-size: 32px;
 }
 
 .heading-two p{
+	text-align: center;
 	font-size: 12px;
-	margin: 0 50px 0 50px;
+	margin: 0 45px 0 45px;
 	opacity: 0.5;
 }
 
 /* home page cards */
 .cards{
 	margin-top: 10%;
+}
+
+.card{
+	width: 100%;
 }
 
 .cards img{
@@ -96,6 +104,17 @@ body{
 	text-align: center;
 }
 
+.cards p{
+	font-size: 12px;
+	text-align: justify;
+	text-transform: capitalize;
+}
+
+.cardone, .cardtwo, .cardthree{
+	border: none;
+	box-shadow: 5px 5px 10px 5px #91a7c9;
+}
+
 /* home jumbotron */
 .jumbotron{
 	margin-top: 10%;
@@ -103,12 +122,49 @@ body{
 	border-radius: 10px;
 }
 
-.jumboleft img{
+.jumboleft h1{
+	margin-top: 80px;
+}
+
+.jumboleft p{
+	margin-top: 25px;
+	text-align: justify;
+}
+
+.jumbospan{
+	margin-left: 13px;
+}
+
+.jumboright img{
 	width: 100%;
 	border-radius: 10px;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+
+/* animate object */
+.object {
+	animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  }
+  
+  @-webkit-keyframes up-down{
+	0%{
+	  transform: translateY(10px);
+	}
+	100%{
+	  transform: translateY(-10px);
+	}
+  }
+  
+  @keyframes up-down{
+	0%{
+	  transform: translateY(10px);
+	}
+	100%{
+	  transform: translateY(-10px);
+	}
+  }
+
 
 /* our service */
 .why{
