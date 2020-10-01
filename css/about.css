@@ -15,6 +15,66 @@ body{
 	z-index: 1;
 }
 
+/* about page */
+#more {display: none;}
+
+.about h1{
+	text-align: center;
+	margin-top: 10%;
+	text-transform: uppercase;
+}
+
+.about .para{
+	margin-top: 50px;
+	width: 80%;
+	text-align: justify;
+}
+
+.about .button{
+	width: 100px;
+	height: 30px;
+	border-radius: 02px;
+	border: none;
+	background-color:#156088;
+	color: white;
+}
+
+.about .button:hover{
+	background-color:black;
+	color: white;
+}
+
+/* service */
+.jumbotron{
+	margin-top: 10%;
+	background-color:#458296;
+	color: whitesmoke;
+	font-weight: 600;
+}
+
+.jumbotron h3{
+	text-align: center;
+	margin: 20px 0 20px 0 ;
+}
+
+.jumb{
+	width: 90%;
+}
+
+/* why AMC */
+.why{
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.why h3{
+	margin-left: 80px;
+	margin-bottom: 50px;
+}
+
+.why-point{
+	margin: 0 80px 0 80px;
+}
 
 /* FOOTER */
 footer{
